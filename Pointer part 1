@@ -1,0 +1,32 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    
+    
+   int i=5;
+   
+   cout<<i<<endl;
+   //Address of operator
+    cout<<"Address of num is "<<&i<<endl;
+    
+    int *p=&i;
+    
+    cout<<"Address is "<<p<<endl;
+    cout<<"Integer Value is "<<*p<<endl;
+    
+    double d=6;
+    
+    cout<<"for double data type "<<d<<endl;
+    cout<<"Address of d "<<&d<<endl;
+    double *ptr=&d;
+    
+    cout<<"Address is "<<ptr<<endl;
+    cout<<"Value is "<<*ptr<<endl;
+      
+    cout<<"size of integer is "<<sizeof(i)<<endl;
+    cout<<"size of pointer is "<<sizeof(p)<<endl;
+    cout<<"size of pointer is "<<sizeof(ptr)<<endl;
+    
+    return 0;
+}
